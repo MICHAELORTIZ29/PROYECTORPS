@@ -22,7 +22,6 @@ header{
     min-height: 70vh;
     display: flex;
     align-items: center;
-    height: 50%;
 }
 
 .container{
@@ -110,7 +109,7 @@ header{
     border-radius: 25px;
 }
 
-.dtn-1:hover{
+.btn-1:hover{
     background-color: #AAB1FF;
 }
 
@@ -159,7 +158,7 @@ header{
 }
 
 .fibra img{
-    width: 150px;
+    width: 350px;
 }
 
 .fibra-1{
@@ -172,12 +171,18 @@ header{
     margin-bottom: 15px;
 }
 
+.fibra-1 p{
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 15px;
+}
+
 .fibra-2{
     text-align: left;
     margin-right: 100px;
 }
 
-.fibra-3 h3{
+.fibra-2 h3{
     font-size: 35px;
     margin-bottom: 15px;
 }
@@ -202,7 +207,7 @@ header{
 }
 
 footer{
-    padding 200px 0px 30px 0px;
+    padding: 200px 0px 30px 0px;
     background-image: url("images/fondoGeneral.png");
     background-position: top center;
     background-repeat: no-repeat;
@@ -217,7 +222,7 @@ footer{
     padding: 35px;
     text-align: center;
     background-color: #f5f5f5;
-    box-shadow: 0px 0px 25px rgba(0,0, 0,0.3);
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.3);
     margin: 0px 150px 0px 0px;
     color: #0E0E0E;
 }
@@ -228,9 +233,14 @@ footer{
 }
 
 .price{
+    font-size: 14px;
+    color: #0EAEF3 !important;
+    margin-bottom: 10px;
+}
+
+.info-price p{
     font-size: 16px;
     color: #525254;
-
 }
 
 .info-txt{
@@ -250,7 +260,7 @@ hr{
 }
 
 .enlaces h3{
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .enlace{
@@ -289,7 +299,7 @@ hr{
 
     }
 
-    #menu:checked ~ .navbar{
+    #menu:checked~.navbar{
         display: initial;
 
     }
@@ -313,6 +323,11 @@ hr{
     }
 
     .content h1{
+        margin-top: 100px;
+        font-size: 45px;
+    }
+
+    .content p{
         margin-top: 0px;
     }
 
@@ -348,12 +363,12 @@ hr{
 
     .fibra-1{
         text-align: center;
-        margin: 0px 0px 25px ;
+        margin: 0px 0px 25px 0px;
     }
     
     .fibra-2{
         text-align: center;
-        margin: 0px 25px 0px ;
+        margin: 0px 0px 25px 0px ;
     }
 
     footer{
@@ -383,8 +398,10 @@ hr{
     }
 
     .enlace{
-        flex-direccion: column;
+        flex-direction: column;
     }
+
+
 
 }
 
